@@ -1,0 +1,22 @@
+{
+  "name": "discord-storage",
+  "version": "0.1.1",
+  "description": "Stores data in a specified discord channel that your client has access to",
+  "main": "bin/index.js",
+  "scripts": {
+    "package": "gulp clean-package && gulp package"
+  },
+  "author": "Zack Campbell <zajrik@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^6.0.58",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.4",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "discord.js": "^11.0.0"
+  }
+}
